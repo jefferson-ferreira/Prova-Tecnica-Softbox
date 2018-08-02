@@ -239,7 +239,7 @@ describe('Projeto', () => {
 	
 	describe('Criar tarefas', () => {
 		
-		const ISSUES = 5; //Numeros de tarefas para criar
+		const ISSUES = 30; //Numeros de tarefas para criar
 		const URL_PROJECT_ISSUES = 'projects/' + project_name + '/issues';
 		const URL_PROJECT_ISSUES_NEW = URL_PROJECT_ISSUES + '/new';
 		const URL_ISSUES = 'issues';
