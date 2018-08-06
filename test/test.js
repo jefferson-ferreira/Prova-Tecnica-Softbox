@@ -6,6 +6,7 @@ const describe = require('mocha').describe;
 const expect = require('chai').expect;
 const it = require('mocha').it;
 const jsdom = require('jsdom');
+const json = require('./arquivos/tarefas');
 
 const {JSDOM} = jsdom;
 
@@ -143,7 +144,7 @@ describe('Cadastrar usuário', () => {
 describe('Projeto', () => {
 	const http = request(URL);
 	const agent = request.agent(URL);
-	const project_name = Math.random().toString(36).substr(2, 10);
+	const PROJECT_NAME = Math.random().toString(36).substr(2, 10);
 	
 	var user_login = {
 		"back_url": URL,
@@ -152,8 +153,8 @@ describe('Projeto', () => {
 	}
 	
 	var project = {
-		"project[name]": project_name,
-		"project[identifier]": project_name,
+		"project[name]": PROJECT_NAME,
+		"project[identifier]": PROJECT_NAME,
 		"project[is_public]": 1,
 		"project[inherit_members]": 0,
 		"project[enabled_module_names][]": "issue_tracking",
@@ -231,7 +232,7 @@ describe('Projeto', () => {
 		.end( (err, res) => {				
 			expect( err ).to.be.a('null');
 			expect( res.statusCode ).to.equal( 302 );
-			expect( res.headers.location ).to.equal( URL + URL_PROJETOS + '/' + project_name + '/settings');
+			expect( res.headers.location ).to.equal( URL + URL_PROJETOS + '/' + PROJECT_NAME + '/settings');
 			done();
 		});		
 	});	
@@ -239,31 +240,15 @@ describe('Projeto', () => {
 	
 	describe('Criar tarefas', () => {
 		
-		const ISSUES = 30; //Numeros de tarefas para criar
-		const URL_PROJECT_ISSUES = 'projects/' + project_name + '/issues';
+		var issues = json['issues'];
+		const URL_PROJECT_ISSUES = 'projects/' + PROJECT_NAME + '/issues';
 		const URL_PROJECT_ISSUES_NEW = URL_PROJECT_ISSUES + '/new';
 		const URL_ISSUES = 'issues';
 		
-		var issues = new Array(ISSUES);
-				
-		for(var i = 0; i < ISSUES; i++) {
-			issues[i] = {
-				'authenticity_token': '',
-				"issue[tracker_id]": 1,
-				"issue[is_private]": 0,
-				"issue[subject]": Math.random().toString(36).substr(2, 10),
-				"issue[status_id]": 1,
-				"issue[priority_id]": getRandom(3, 8),
-				"issue[start_date]": '2018-07-31',
-				"issue[done_ratio]": getRandom(0, 10) * 10,
-				"commit": 'Criar'
-			};
-		}
-		
 		issues.forEach( (issue, index, arr) => {
-						
-			var desc_it_csrf = 'Retornar um token para criar um nova issue no projeto  \'' + project_name + "'";
-			var desc_it = 'criar issue '+index+' no projeto \'' + project_name + "'";
+			
+			var desc_it_csrf = 'Retornar um token para criar um nova issue no projeto  \'' + PROJECT_NAME + "'";
+			var desc_it = 'criar issue '+index+' no projeto \'' + PROJECT_NAME + "'";
 			
 			it(desc_it_csrf, (done, i) => {
 				agent

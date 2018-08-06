@@ -1,0 +1,274 @@
+{
+  "issues": [
+    {
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 1",
+		"issue[description]": "Descrição Tarefa 1",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 2",
+		"issue[description]": "Descrição Tarefa 2",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 3,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 3",
+		"issue[description]": "Descrição Tarefa 3",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 5,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 4",
+		"issue[description]": "Descrição Tarefa 4",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 7,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 5",
+		"issue[description]": "Descrição Tarefa 5",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 6",
+		"issue[description]": "Descrição Tarefa 6",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 5,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 7",
+		"issue[description]": "Descrição Tarefa 7",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 7,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 8",
+		"issue[description]": "Descrição Tarefa 8",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 9",
+		"issue[description]": "Descrição Tarefa 9",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 3,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 10",
+		"issue[description]": "Descrição Tarefa 10",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 11",
+		"issue[description]": "Descrição Tarefa 11",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 5,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 12",
+		"issue[description]": "Descrição Tarefa 12",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 6,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 13",
+		"issue[description]": "Descrição Tarefa 13",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 14",
+		"issue[description]": "Descrição Tarefa 14",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 7,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 15",
+		"issue[description]": "Descrição Tarefa 15",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 6,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 16",
+		"issue[description]": "Descrição Tarefa 16",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 17",
+		"issue[description]": "Descrição Tarefa 17",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 18",
+		"issue[description]": "Descrição Tarefa 18",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 19",
+		"issue[description]": "Descrição Tarefa 19",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 3,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 20",
+		"issue[description]": "Descrição Tarefa 20",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 6,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 21",
+		"issue[description]": "Descrição Tarefa 21",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 5,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 22",
+		"issue[description]": "Descrição Tarefa 22",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 23",
+		"issue[description]": "Descrição Tarefa 23",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 24",
+		"issue[description]": "Descrição Tarefa 24",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 25",
+		"issue[description]": "Descrição Tarefa 25",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 7,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 26",
+		"issue[description]": "Descrição Tarefa 26",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 6,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 27",
+		"issue[description]": "Descrição Tarefa 27",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 3,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 28",
+		"issue[description]": "Descrição Tarefa 28",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 29",
+		"issue[description]": "Descrição Tarefa 29",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 7,
+		"commit": "Criar"
+    },
+	{
+		"issue[tracker_id]": 1,
+		"issue[is_private]": 0,
+		"issue[subject]": "Tarefa 30",
+		"issue[description]": "Descrição Tarefa 30",
+		"issue[status_id]": 1,
+		"issue[priority_id]": 4,
+		"commit": "Criar"
+    }
+  ]
+}
